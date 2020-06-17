@@ -5,7 +5,7 @@ def oxford_comma(number)
     return number.join(" and ")
   elsif number.length > 2
     number[-1] = "and #{number[-1]}"
-    return number.join
+    return number.join(", ")
   end
 end
 
